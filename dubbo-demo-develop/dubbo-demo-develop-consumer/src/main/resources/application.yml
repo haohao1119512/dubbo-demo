@@ -1,0 +1,5 @@
+dubbo:
+  application:
+    name: dubbo-demo-develop-consumer
+  registry:
+    address: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
